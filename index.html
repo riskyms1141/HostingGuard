@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HostMasterr - Hosting + Domain Terbaik dengan Harga Terjangkau</title>
+    <title>HostingGuard - Hosting + Domain Terbaik dengan Harga Terjangkau</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
         :root {
@@ -483,48 +483,43 @@
             box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
         }
 
-        /* Testimonials */
-        .testimonials {
+        /* Why Choose Us Section */
+        .why-choose-us {
             padding: 100px 0;
             background: white;
         }
 
-        .testimonial-grid {
+        .benefits-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 50px;
         }
 
-        .testimonial-card {
+        .benefit-card {
             background: var(--light);
             padding: 30px;
             border-radius: 15px;
             box-shadow: var(--shadow);
+            text-align: center;
+            transition: transform 0.3s ease;
         }
 
-        .testimonial-text {
-            font-style: italic;
-            margin-bottom: 20px;
-            color: var(--dark);
+        .benefit-card:hover {
+            transform: translateY(-10px);
         }
 
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .author-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+        .benefit-icon {
+            width: 70px;
+            height: 70px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 0 auto 20px;
             color: white;
-            font-weight: bold;
+            font-size: 1.8rem;
         }
 
         /* FAQ */
@@ -753,7 +748,7 @@
                 <div class="logo-icon">
                     <i class="fas fa-server"></i>
                 </div>
-                <div class="logo-text">Host<span>Masterr</span></div>
+                <div class="logo-text">Hosting<span>Guard</span></div>
             </a>
             <a href="#paket" class="cta-header">
                 <i class="fas fa-bolt"></i> Pesan Sekarang
@@ -955,42 +950,35 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
         <div class="container">
-            <h2 class="section-title">Apa Kata Pelanggan Kami</h2>
-            <p class="section-subtitle">Ribuan pelanggan telah mempercayakan website mereka pada HostMasterr</p>
+            <h2 class="section-title">Mengapa Memilih HostingGuard?</h2>
+            <p class="section-subtitle">Kami memberikan solusi hosting terbaik untuk memastikan kesuksesan online Anda</p>
             
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Sangat puas dengan layanan HostMasterr. Website toko online saya loadingnya cepat dan supportnya responsif banget!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">AS</div>
-                        <div>
-                            <h4>Ahmad Saputra</h4>
-                            <p>Pemilik Toko Online</p>
-                        </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
+                    <h3>Performa Tinggi</h3>
+                    <p>Server SSD NVMe dengan kecepatan maksimal untuk website yang loading cepat</p>
                 </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Harga terjangkau tapi kualitas premium. Sudah 6 bulan pakai HostMasterr, belum pernah downtime."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">DR</div>
-                        <div>
-                            <h4>Dina Rahmawati</h4>
-                            <p>Blogger Travel</p>
-                        </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
+                    <h3>Keamanan Optimal</h3>
+                    <p>SSL gratis, firewall, dan backup rutin untuk melindungi data website Anda</p>
                 </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Instalasi WordPress gratis dan cepat. Cocok untuk pemula seperti saya yang mau buat website portofolio."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">RS</div>
-                        <div>
-                            <h4>Rizki Setiawan</h4>
-                            <p>Freelancer Designer</p>
-                        </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
                     </div>
+                    <h3>Support Profesional</h3>
+                    <p>Tim support siap membantu 24/7 melalui WhatsApp, email, dan chat</p>
                 </div>
             </div>
         </div>
@@ -1063,7 +1051,7 @@
                         <div class="logo-icon">
                             <i class="fas fa-server"></i>
                         </div>
-                        <div class="logo-text">Host<span>Masterr</span></div>
+                        <div class="logo-text">Hosting<span>Guard</span></div>
                     </div>
                     <p style="color: #cbd5e1; margin-bottom: 20px;">Layanan hosting dan domain terpercaya dengan performa tinggi dan support 24/7.</p>
                 </div>
@@ -1086,9 +1074,9 @@
                     <h3>Layanan</h3>
                     <ul class="footer-links">
                         <li><a href="#paket">Paket Hosting</a></li>
-                        <li><a href="#">Pendaftaran Domain</a></li>
-                        <li><a href="#">Migrasi Website</a></li>
                         <li><a href="#">Instalasi WordPress</a></li>
+                        <li><a href="#">Bantuan Teknis</a></li>
+                        <li><a href="#">Konsultasi Website</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -1102,7 +1090,7 @@
                 </div>
             </div>
             <div class="copyright">
-                &copy; 2023 HostMasterr. Semua hak dilindungi undang-undang.
+                &copy; 2025 HostingGuard. Semua hak dilindungi undang-undang.
             </div>
         </div>
     </footer>
